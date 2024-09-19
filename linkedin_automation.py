@@ -106,8 +106,8 @@ if __name__ == "__main__":
         linkedin_bot = LinkedInAutomation()
         
         # Add your LinkedIn credentials here
-        email = "rajulucky400@gmail.com"
-        password = "Rajesh@2847"
+        email = "yourmail@gmail.com"
+        password = "yourpassword"
         linkedin_bot.login_to_linkedin(email, password)
         linkedin_bot.create_content_from_feed()
     except Exception as e:
